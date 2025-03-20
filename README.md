@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Due to proprietary licensing and Non Disclosure Agreements, the complete document and data can not yet be publicly disclosed. Please contact us for more information regarding disclosure.**
+**Due to proprietary licensing and Non Disclosure Agreements, the complete publication and data can not yet be publicly disclosed. Please contact us for more information regarding disclosure.**
 
 </div>
 
@@ -88,7 +88,7 @@ All LLM vulnerabilities emerge from a finite set of fundamental tensions in lang
 
 <div align="center">
 
-**Due to proprietary licensing and Non Disclosure Agreements, the complete document and data can not yet be publicly disclosed. Please contact us for more information regarding disclosure.**
+**Due to proprietary licensing and Non Disclosure Agreements, the complete publication and data can not yet be publicly disclosed. Please contact us for more information regarding disclosure.**
 
 </div>
 
