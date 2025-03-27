@@ -85,6 +85,9 @@ The security landscape of Large Language Models (LLMs) has previously been appro
 
 All LLM vulnerabilities emerge from a finite set of fundamental tensions in language model architectures. These tensions represent invariant properties of the systems themselves rather than contingent features of specific implementations.
 
+#### 2.1.1 The Five Axiomatic Domains
+
+The complete vulnerability space of language models can be derived from five axiomatic domains, each representing a fundamental dimension of model operation:
 
 <div align="center">
 
