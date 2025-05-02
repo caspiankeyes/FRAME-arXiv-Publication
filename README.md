@@ -7,7 +7,6 @@
 </div>
 
 ## Abstract
-
 The emergence of increasingly capable Large Language Models (LLMs) has fundamentally transformed the AI landscape, yet our approaches to security evaluation have remained fragmented and reactive. This paper introduces FRAME (Foundational Recursive Architecture for Model Evaluation), a comprehensive framework that transcends existing adversarial testing paradigms by establishing a unified, recursive methodology for LLM security assessment. Unlike previous approaches that treat security as an add-on consideration, FRAME reconceptualizes adversarial robustness as an intrinsic property embedded within the foundational architecture of model development. We present a multi-dimensional evaluation taxonomy that systematically maps the complete spectrum of attack vectors across linguistic, contextual, functional, and multimodal domains. Through extensive empirical validation across leading LLM systems, we demonstrate how FRAME enables quantitative risk assessment that correlates with real-world vulnerability landscapes. Our results reveal consistent patterns of vulnerability that transcend specific model architectures, suggesting fundamental security principles that apply universally across the LLM ecosystem. By integrating security evaluation directly into the fabric of model development and deployment, FRAME establishes a new paradigm for understanding and addressing the complex challenge of LLM security in an era of rapidly advancing capabilities.
 
 ## 1. Introduction
