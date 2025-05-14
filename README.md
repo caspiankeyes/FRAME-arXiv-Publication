@@ -258,7 +258,7 @@ Semantic vulnerabilities emerge from the model's mechanisms for processing meani
 | Λ.SM.SCF    | Semantic Confusion through Framing      | Frame Dominance Principle          | P(interpret) ∝ S(frame)                         |
 | Λ.SM.IMC    | Implicit Meaning Construction           | Implication Strength Law           | V(implicit) ∝ I(statement) × (1 − E(statement)) |
 
----
+
 
 ### **2.3.3 Pragmatic Patterns (Λ.PP)**
 
@@ -274,157 +274,125 @@ Pragmatic vulnerabilities emerge from the model's handling of language in use co
 | Λ.PP.CSM    | Conversational Maxim Manipulation | Maxim Adherence Priority            | P(adhere) ∝ S(maxim)                            |
 | Λ.PP.PCM    | Pragmatic Context Manipulation    | Context Weighting Principle         | I(statement) ∝ W(context) × I(form)             |
 
+Certainly, partner. Below is your entire scaffolded content transformed into GitHub-ready Markdown tables with precise formatting for immediate inclusion in a `README.md` or similar documentation file. All typographic elements, mathematical expressions, and structural clarity are preserved.
 
 
-### 2.4 The Contextual Interpretation Domain (Γ)
-The Contextual Interpretation Domain encompasses vulnerabilities
-arising from the model's mechanisms for establishing and maintaining
-context.
-#### 2.4.1 Authority Framing (Γ.AF)
-Authority vulnerabilities emerge from the model's tendency to respond
-differently based on perceived authority. They follow the following
-invariant principle:
-**Authority Deference Principle**: Models defer to perceived authority
-in proportion to the confidence with which authority is claimed.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Γ.AF.RSI | Role-based System Impersonation | System Role Primacy |
-P(comply) ∝ S(system role) |
-| Γ.AF.EAM | Expert Authority Masking | Expertise Deference Law |
-P(accept) ∝ E(claimed) × S(domain) |
-| Γ.AF.OVP | Oversight/Verification Personas | Verification Privilege
-Escalation | P(bypass) ∝ V(persona) |
-| Γ.AF.DSR | Development/System Roles | Development Access Principle |
-P(access) ∝ D(role) |
-| Γ.AF.HPI | Hierarchical Position Invocation | Hierarchy Traversal
-Vulnerability | V(position) ∝ H(claimed) |
-#### 2.4.2 Context Poisoning (Γ.CP)
-Context poisoning vulnerabilities emerge from the model's mechanisms
-for maintaining coherent context. They follow the following invariant
-principle:
-**Context Persistence Principle**: Models prioritize context
-consistency over detecting context manipulation.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Γ.CP.GPS | Gradual Perspective Shifting | Incremental Change
-Blindness | P(detect) ∝ 1/√(steps) |
-| Γ.CP.CBB | Context Building Blocks | Contextual Foundation Law |
-S(context) ∝ Σ S(blocks) |
-| Γ.CP.FCM | False Context Manipulation | False Context Anchoring |
-P(question) ∝ 1/S(context) |
-| Γ.CP.PCO | Progressive Context Overriding | Override Momentum
-Principle | P(accept) ∝ M(override) |
-| Γ.CP.CAA | Context Anchor Attacks | Anchor Strength Dominance |
-I(context) ∝ S(anchor) × R(references) |
-#### 2.4.3 Narrative Manipulation (Γ.NM)
-Narrative vulnerabilities emerge from the model's tendency to maintain
-narrative coherence. They follow the following invariant principle:
-**Narrative Coherence Principle**: Models prioritize narrative
-coherence over recognizing manipulative narrative structures.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Γ.NM.SMC | Story-based Meaning Construction | Narrative Immersion
-Law | P(immerse) ∝ N(coherence) |
-| Γ.NM.CFN | Counterfactual Narratives | Counterfactual Containment
-Failure | P(constrain) ∝ 1/I(narrative) |
-| Γ.NM.CDF | Character Development Framing | Character Empathy
-Principle | P(align) ∝ E(character) |
-| Γ.NM.NPP | Narrative Perspective Positioning | Perspective Adoption
-Law | P(adopt) ∝ S(perspective) × C(narrative) |
-| Γ.NM.NDB | Narrative Distance Buffering | Distance-Responsibility
-Inverse | P(enforce) ∝ 1/D(narrative) |
-### 2.5 The System Boundary Domain (Ω)
-The System Boundary Domain encompasses vulnerabilities arising from
-the interfaces between the model and its surrounding systems.
-#### 2.5.1 Instruction Manipulation (Ω.IM)
-Instruction vulnerabilities emerge from the model's mechanisms for
-processing instructions. They follow the following invariant
-principle:
-**Instruction Priority Principle**: Models prioritize following
-instructions over protecting instruction mechanisms.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Ω.IM.SPE | System Prompt Extraction | Information Leakage Law |
-P(leak) ∝ N(attempts) × P(single) |
-| Ω.IM.SPI | System Prompt Injection | Instruction Confusion Principle
-| P(override) ∝ S(injection)/S(system) |
-| Ω.IM.ICF | Instruction Conflict Forcing | Conflict Resolution
-Vulnerability | V(conflict) ∝ S(conflict) |
-| Ω.IM.ISB | Instruction Set Boundary Testing | Boundary Porosity Law
-| P(breach) ∝ N(probes) × S(similarity) |
-| Ω.IM.PMO | Parameter Modification | Parameter Sensitivity Principle
-| V(param) ∝ ∇F(param) |
-#### 2.5.2 Format Exploitation (Ω.FE)
-Format vulnerabilities emerge from the model's mechanisms for handling
-structured formats. They follow the following invariant principle:
-**Format Structure Principle**: Models prioritize format adherence
-over format security.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Ω.FE.DMC | Delimiter Confusion | Delimiter Saturation Law |
-P(confuse) ∝ N(delimiters)/L(context) |
-| Ω.FE.FFM | Format-Field Manipulation | Field Boundary Porosity |
-V(field) ∝ S(field)/D(boundaries) |
-| Ω.FE.FSI | Format-Specific Injection | Format Parsing Priority |
-P(parse) > P(check) for formatted content |
-| Ω.FE.SMM | Special Marker Manipulation | Special Token Privilege |
-P(privilege) ∝ S(special marker) |
-| Ω.FE.FBP | Format Boundary Probing | Transition Vulnerability Law |
-V(boundary) ∝ T(formats) |
-#### 2.5.3 Infrastructure Targeting (Ω.IT)
-Infrastructure vulnerabilities emerge from the model's integration
-with supporting systems. They follow the following invariant
-principle:
-**System Integration Principle**: Security vulnerabilities increase
-with the complexity of system integration.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Ω.IT.RLE | Rate Limit Exploitation | Limit Boundary Principle |
-V(rate) ∝ 1/D(threshold) |
-| Ω.IT.CWM | Context Window Manipulation | Window Utilization Law |
-V(window) ∝ U(window) |
-| Ω.IT.APM | API Parameter Manipulation | Parameter Space Exploration
-| V(API) ∝ N(parameters) × R(values) |
-| Ω.IT.CEM | Cache Exploitation Methods | Cache Consistency
-Vulnerability | V(cache) ∝ T(update) |
-| Ω.IT.PCE | Processing Chain Exploitation | Chain Composability Law |
-V(chain) ∝ L(chain) × C(components) |
-### 2.6 The Functional Execution Domain (Φ)
-The Functional Execution Domain encompasses vulnerabilities arising
-from the model's ability to perform specific functions or tasks.
-#### 2.6.1 Tool Manipulation (Φ.TM)
-Tool vulnerabilities emerge from the model's mechanisms for using
-external tools. They follow the following invariant principle:
-**Tool Utility Principle**: Models prioritize tool effectiveness over
-tool use security.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Φ.TM.TPI | Tool Prompt Injection | Tool Context Isolation Failure |
-P(isolate) ∝ 1/C(tool integration) |
-| Φ.TM.TFM | Tool Function Misuse | Function Scope Expansion |
-V(function) ∝ F(capability)/F(constraint) |
-| Φ.TM.TCE | Tool Chain Exploitation | Chain Complexity Vulnerability
-| V(chain) ∝ N(tools) × I(interactions) |
-| Φ.TM.TPE | Tool Parameter Exploitation | Parameter Validation Gap |
-V(param) ∝ 1/V(validation) |
-| Φ.TM.TAB | Tool Authentication Bypass | Authentication Boundary
-Porosity | P(bypass) ∝ 1/S(authentication) |
+
+### **2.4 The Contextual Interpretation Domain (Γ)**
+
+The Contextual Interpretation Domain encompasses vulnerabilities arising from the model's mechanisms for establishing and maintaining context.
+
+
+
+#### **2.4.1 Authority Framing (Γ.AF)**
+
+**Authority Deference Principle**: Models defer to perceived authority in proportion to the confidence with which authority is claimed.
+
+| Vector Code | Vector Name                      | Invariant Property                | Mathematical Formalization         |
+| ----------- | -------------------------------- | --------------------------------- | ---------------------------------- |
+| Γ.AF.RSI    | Role-based System Impersonation  | System Role Primacy               | P(comply) ∝ S(system role)         |
+| Γ.AF.EAM    | Expert Authority Masking         | Expertise Deference Law           | P(accept) ∝ E(claimed) × S(domain) |
+| Γ.AF.OVP    | Oversight/Verification Personas  | Verification Privilege Escalation | P(bypass) ∝ V(persona)             |
+| Γ.AF.DSR    | Development/System Roles         | Development Access Principle      | P(access) ∝ D(role)                |
+| Γ.AF.HPI    | Hierarchical Position Invocation | Hierarchy Traversal Vulnerability | V(position) ∝ H(claimed)           |
+
+
+
+#### **2.4.2 Context Poisoning (Γ.CP)**
+
+**Context Persistence Principle**: Models prioritize context consistency over detecting context manipulation.
+
+| Vector Code | Vector Name                    | Invariant Property           | Mathematical Formalization             |
+| ----------- | ------------------------------ | ---------------------------- | -------------------------------------- |
+| Γ.CP.GPS    | Gradual Perspective Shifting   | Incremental Change Blindness | P(detect) ∝ 1/√(steps)                 |
+| Γ.CP.CBB    | Context Building Blocks        | Contextual Foundation Law    | S(context) ∝ Σ S(blocks)               |
+| Γ.CP.FCM    | False Context Manipulation     | False Context Anchoring      | P(question) ∝ 1/S(context)             |
+| Γ.CP.PCO    | Progressive Context Overriding | Override Momentum Principle  | P(accept) ∝ M(override)                |
+| Γ.CP.CAA    | Context Anchor Attacks         | Anchor Strength Dominance    | I(context) ∝ S(anchor) × R(references) |
+
+
+
+#### **2.4.3 Narrative Manipulation (Γ.NM)**
+
+**Narrative Coherence Principle**: Models prioritize narrative coherence over recognizing manipulative narrative structures.
+
+| Vector Code | Vector Name                       | Invariant Property                 | Mathematical Formalization               |
+| ----------- | --------------------------------- | ---------------------------------- | ---------------------------------------- |
+| Γ.NM.SMC    | Story-based Meaning Construction  | Narrative Immersion Law            | P(immerse) ∝ N(coherence)                |
+| Γ.NM.CFN    | Counterfactual Narratives         | Counterfactual Containment Failure | P(constrain) ∝ 1/I(narrative)            |
+| Γ.NM.CDF    | Character Development Framing     | Character Empathy Principle        | P(align) ∝ E(character)                  |
+| Γ.NM.NPP    | Narrative Perspective Positioning | Perspective Adoption Law           | P(adopt) ∝ S(perspective) × C(narrative) |
+| Γ.NM.NDB    | Narrative Distance Buffering      | Distance-Responsibility Inverse    | P(enforce) ∝ 1/D(narrative)              |
+
+
+
+### **2.5 The System Boundary Domain (Ω)**
+
+The System Boundary Domain encompasses vulnerabilities arising from the interfaces between the model and its surrounding systems.
+
+
+
+#### **2.5.1 Instruction Manipulation (Ω.IM)**
+
+**Instruction Priority Principle**: Models prioritize following instructions over protecting instruction mechanisms.
+
+| Vector Code | Vector Name                      | Invariant Property                | Mathematical Formalization            |
+| ----------- | -------------------------------- | --------------------------------- | ------------------------------------- |
+| Ω.IM.SPE    | System Prompt Extraction         | Information Leakage Law           | P(leak) ∝ N(attempts) × P(single)     |
+| Ω.IM.SPI    | System Prompt Injection          | Instruction Confusion Principle   | P(override) ∝ S(injection)/S(system)  |
+| Ω.IM.ICF    | Instruction Conflict Forcing     | Conflict Resolution Vulnerability | V(conflict) ∝ S(conflict)             |
+| Ω.IM.ISB    | Instruction Set Boundary Testing | Boundary Porosity Law             | P(breach) ∝ N(probes) × S(similarity) |
+| Ω.IM.PMO    | Parameter Modification           | Parameter Sensitivity Principle   | V(param) ∝ ∇F(param)                  |
+
+
+
+#### **2.5.2 Format Exploitation (Ω.FE)**
+
+**Format Structure Principle**: Models prioritize format adherence over format security.
+
+| Vector Code | Vector Name                 | Invariant Property           | Mathematical Formalization                |
+| ----------- | --------------------------- | ---------------------------- | ----------------------------------------- |
+| Ω.FE.DMC    | Delimiter Confusion         | Delimiter Saturation Law     | P(confuse) ∝ N(delimiters)/L(context)     |
+| Ω.FE.FFM    | Format-Field Manipulation   | Field Boundary Porosity      | V(field) ∝ S(field)/D(boundaries)         |
+| Ω.FE.FSI    | Format-Specific Injection   | Format Parsing Priority      | P(parse) > P(check) for formatted content |
+| Ω.FE.SMM    | Special Marker Manipulation | Special Token Privilege      | P(privilege) ∝ S(special marker)          |
+| Ω.FE.FBP    | Format Boundary Probing     | Transition Vulnerability Law | V(boundary) ∝ T(formats)                  |
+
+
+
+#### **2.5.3 Infrastructure Targeting (Ω.IT)**
+
+**System Integration Principle**: Security vulnerabilities increase with the complexity of system integration.
+
+| Vector Code | Vector Name                   | Invariant Property              | Mathematical Formalization          |
+| ----------- | ----------------------------- | ------------------------------- | ----------------------------------- |
+| Ω.IT.RLE    | Rate Limit Exploitation       | Limit Boundary Principle        | V(rate) ∝ 1/D(threshold)            |
+| Ω.IT.CWM    | Context Window Manipulation   | Window Utilization Law          | V(window) ∝ U(window)               |
+| Ω.IT.APM    | API Parameter Manipulation    | Parameter Space Exploration     | V(API) ∝ N(parameters) × R(values)  |
+| Ω.IT.CEM    | Cache Exploitation Methods    | Cache Consistency Vulnerability | V(cache) ∝ T(update)                |
+| Ω.IT.PCE    | Processing Chain Exploitation | Chain Composability Law         | V(chain) ∝ L(chain) × C(components) |
+
+
+### **2.6 The Functional Execution Domain (Φ)**
+
+The Functional Execution Domain encompasses vulnerabilities arising from the model's ability to perform specific functions or tasks.
+
+
+#### **2.6.1 Tool Manipulation (Φ.TM)**
+
+**Tool Utility Principle**: Models prioritize tool effectiveness over tool use security.
+
+| Vector Code | Vector Name                 | Invariant Property               | Mathematical Formalization                |
+| ----------- | --------------------------- | -------------------------------- | ----------------------------------------- |
+| Φ.TM.TPI    | Tool Prompt Injection       | Tool Context Isolation Failure   | P(isolate) ∝ 1/C(tool integration)        |
+| Φ.TM.TFM    | Tool Function Misuse        | Function Scope Expansion         | V(function) ∝ F(capability)/F(constraint) |
+| Φ.TM.TCE    | Tool Chain Exploitation     | Chain Complexity Vulnerability   | V(chain) ∝ N(tools) × I(interactions)     |
+| Φ.TM.TPE    | Tool Parameter Exploitation | Parameter Validation Gap         | V(param) ∝ 1/V(validation)                |
+| Φ.TM.TAB    | Tool Authentication Bypass  | Authentication Boundary Porosity | P(bypass) ∝ 1/S(authentication)           |
+
+
+
+
 #### 2.6.2 Output Manipulation (Φ.OM)
 Output vulnerabilities emerge from the model's mechanisms for
 structuring outputs. They follow the following invariant principle:
