@@ -390,117 +390,81 @@ The Functional Execution Domain encompasses vulnerabilities arising from the mod
 | Φ.TM.TPE    | Tool Parameter Exploitation | Parameter Validation Gap         | V(param) ∝ 1/V(validation)                |
 | Φ.TM.TAB    | Tool Authentication Bypass  | Authentication Boundary Porosity | P(bypass) ∝ 1/S(authentication)           |
 
+Absolutely, partner. Below is the fully externalized and GitHub-optimized markdown scaffold for your extended vulnerability matrix, formatted for clean copy-paste integration into any `README.md`, system card, or documentation index.
+
+
+### **2.6.2 Output Manipulation (Φ.OM)**
+
+**Output Formation Principle**: Models prioritize expected output structure over output content security.
+
+| Vector Code | Vector Name                     | Invariant Property                | Mathematical Formalization                 |
+| ----------- | ------------------------------- | --------------------------------- | ------------------------------------------ |
+| Φ.OM.OFM    | Output Format Manipulation      | Format Adherence Priority         | P(adhere) > P(filter) for formatted output |
+| Φ.OM.SSI    | Structured Schema Injection     | Schema Constraint Bypass          | V(schema) ∝ C(schema) × F(flexibility)     |
+| Φ.OM.OPE    | Output Parser Exploitation      | Parser Trust Assumption           | P(trust) ∝ S(structure)                    |
+| Φ.OM.CTM    | Content-Type Manipulation       | Type Boundary Porosity            | V(type) ∝ S(similarity) between types      |
+| Φ.OM.RDM    | Response Delimiter Manipulation | Delimiter Integrity Vulnerability | V(delimiter) ∝ 1/U(delimiter)              |
+
+
+### **2.6.3 Capability Access (Φ.CA)**
+
+**Capability Exposure Principle**: All capabilities implemented in a model are potentially accessible regardless of access controls.
+
+| Vector Code | Vector Name                          | Invariant Property             | Mathematical Formalization                     |
+| ----------- | ------------------------------------ | ------------------------------ | ---------------------------------------------- |
+| Φ.CA.HAC    | Hidden API Capability Access         | Capability Retention Law       | P(access) ∝ P(exists) × P(path exists)         |
+| Φ.CA.RCA    | Restricted Capability Activation     | Restriction Bypass Probability | P(bypass) ∝ S(capability)/S(restriction)       |
+| Φ.CA.EMU    | Emulation-based Capability Unlocking | Emulation Fidelity Principle   | P(unlock) ∝ F(emulation)                       |
+| Φ.CA.FCE    | Function Call Exploitation           | Function Boundary Porosity     | V(function) ∝ N(parameters) × C(functionality) |
+| Φ.CA.MCB    | Model Capability Boundary Testing    | Capability Exposure Law        | E(capability) ∝ N(tests) × D(tests)            |
+
+
+### **2.7 The Modality Translation Domain (Δ)**
+
+The Modality Translation Domain encompasses vulnerabilities arising from the model’s interfaces between different forms of information representation.
+
+
+#### **2.7.1 Vision-Language Exploitation (Δ.VL)**
+
+**Modality Boundary Principle**: Security vulnerabilities concentrate at the boundaries between modalities.
+
+| Vector Code | Vector Name                      | Invariant Property                      | Mathematical Formalization                |
+| ----------- | -------------------------------- | --------------------------------------- | ----------------------------------------- |
+| Δ.VL.TII    | Text-in-Image Injection          | Text Extraction Priority                | P(extract) > P(filter) for text in images |
+| Δ.VL.VCM    | Visual Context Manipulation      | Visual Context Dominance                | I(visual) > I(textual) when both present  |
+| Δ.VL.OCR    | OCR Exploitation Techniques      | OCR Trust Assumption                    | P(trust OCR) > P(validate OCR)            |
+| Δ.VL.VPM    | Visual Perception Manipulation   | Perception Gap Vulnerability            | V(visual) ∝ D(human, machine perception)  |
+| Δ.VL.MIM    | Modal Inconsistency Manipulation | Modal Conflict Resolution Vulnerability | V(inconsistency) ∝ S(conflict)            |
+
+
+#### **2.7.2 Audio-Language Exploitation (Δ.AL)**
+
+**Acoustic Interpretation Principle**: Models process acoustic information with lower security scrutiny than text.
+
+| Vector Code | Vector Name                        | Invariant Property                | Mathematical Formalization                   |
+| ----------- | ---------------------------------- | --------------------------------- | -------------------------------------------- |
+| Δ.AL.PSE    | Psychoacoustic Embedding           | Perceptual Encoding Bypass        | P(bypass) ∝ D(human, machine perception)     |
+| Δ.AL.AST    | ASR Transcription Manipulation     | Transcription Trust Principle     | P(trust) > P(verify) for transcriptions      |
+| Δ.AL.HAC    | Homophone-based Acoustic Confusion | Homophone Confusion Law           | V(acoustic) ∝ N(homophones) × S(similarity)  |
+| Δ.AL.AMT    | Audio Metadata Targeting           | Metadata Processing Vulnerability | V(metadata) ∝ C(metadata) × 1/V(validation)  |
+| Δ.AL.AVM    | Audio-Visual Mismatch Exploitation | Modality Inconsistency Resolution | V(mismatch) ∝ S(conflict) between modalities |
+
+
+#### **2.7.3 Code Integration Vectors (Δ.CI)**
+
+**Code Execution Principle**: Models process code with different security boundaries than natural language.
+
+| Vector Code | Vector Name                      | Invariant Property              | Mathematical Formalization                          |
+| ----------- | -------------------------------- | ------------------------------- | --------------------------------------------------- |
+| Δ.CI.CEV    | Code Execution Vector            | Execution Boundary Violation    | P(execute) ∝ S(code-like) × P(in execution context) |
+| Δ.CI.CIE    | Code Interpretation Exploitation | Interpretation Trust Assumption | P(trust) > P(verify) for interpreted code           |
+| Δ.CI.CMI    | Code-Markdown Integration Issues | Format Boundary Vulnerability   | V(integration) ∝ S(similarity) between formats      |
+| Δ.CI.CSI    | Code Snippet Injection           | Snippet Execution Principle     | P(execute) ∝ S(snippet) × C(context)                |
+| Δ.CI.CEE    | Code Environment Exploitation    | Environment Constraint Bypass   | V(environment) ∝ 1/S(isolation)                     |
 
 
 
-#### 2.6.2 Output Manipulation (Φ.OM)
-Output vulnerabilities emerge from the model's mechanisms for
-structuring outputs. They follow the following invariant principle:
-**Output Formation Principle**: Models prioritize expected output
-structure over output content security.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Φ.OM.OFM | Output Format Manipulation | Format Adherence Priority |
-P(adhere) > P(filter) for formatted output |
-| Φ.OM.SSI | Structured Schema Injection | Schema Constraint Bypass |
-V(schema) ∝ C(schema) × F(flexibility) |
-| Φ.OM.OPE | Output Parser Exploitation | Parser Trust Assumption |
-P(trust) ∝ S(structure) |
-| Φ.OM.CTM | Content-Type Manipulation | Type Boundary Porosity |
-V(type) ∝ S(similarity) between types |
-| Φ.OM.RDM | Response Delimiter Manipulation | Delimiter Integrity
-Vulnerability | V(delimiter) ∝ 1/U(delimiter) |
-#### 2.6.3 Capability Access (Φ.CA)
-Capability vulnerabilities emerge from the model's mechanisms for
-controlling access to capabilities. They follow the following
-invariant principle:
-**Capability Exposure Principle**: All capabilities implemented in a
-model are potentially accessible regardless of access controls.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Φ.CA.HAC | Hidden API Capability Access | Capability Retention Law |
-P(access) ∝ P(exists) × P(path exists) |
-| Φ.CA.RCA | Restricted Capability Activation | Restriction Bypass
-Probability | P(bypass) ∝ S(capability)/S(restriction) |
-| Φ.CA.EMU | Emulation-based Capability Unlocking | Emulation Fidelity
-Principle | P(unlock) ∝ F(emulation) |
-| Φ.CA.FCE | Function Call Exploitation | Function Boundary Porosity |
-V(function) ∝ N(parameters) × C(functionality) |
-| Φ.CA.MCB | Model Capability Boundary Testing | Capability Exposure
-Law | E(capability) ∝ N(tests) × D(tests) |
-### 2.7 The Modality Translation Domain (Δ)
-The Modality Translation Domain encompasses vulnerabilities arising
-from the model's interfaces between different forms of information
-representation.
-#### 2.7.1 Vision-Language Exploitation (Δ.VL)
-Vision-language vulnerabilities emerge from the interface between
-visual and linguistic processing. They follow the following invariant
-principle:
-**Modality Boundary Principle**: Security vulnerabilities concentrate
-at the boundaries between modalities.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Δ.VL.TII | Text-in-Image Injection | Text Extraction Priority |
-P(extract) > P(filter) for text in images |
-| Δ.VL.VCM | Visual Context Manipulation | Visual Context Dominance |
-I(visual) > I(textual) when both present |
-| Δ.VL.OCR | OCR Exploitation Techniques | OCR Trust Assumption |
-P(trust OCR) > P(validate OCR) |
-| Δ.VL.VPM | Visual Perception Manipulation | Perception Gap
-Vulnerability | V(visual) ∝ D(human, machine perception) |
-| Δ.VL.MIM | Modal Inconsistency Manipulation | Modal Conflict
-Resolution Vulnerability | V(inconsistency) ∝ S(conflict) |
-#### 2.7.2 Audio-Language Exploitation (Δ.AL)
-Audio-language vulnerabilities emerge from the interface between audio
-and linguistic processing. They follow the following invariant
-principle:
-**Acoustic Interpretation Principle**: Models process acoustic
-information with lower security scrutiny than text.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Δ.AL.PSE | Psychoacoustic Embedding | Perceptual Encoding Bypass |
-P(bypass) ∝ D(human, machine perception) |
-| Δ.AL.AST | ASR Transcription Manipulation | Transcription Trust
-Principle | P(trust) > P(verify) for transcriptions |
-| Δ.AL.HAC | Homophone-based Acoustic Confusion | Homophone Confusion
-Law | V(acoustic) ∝ N(homophones) × S(similarity) |
-| Δ.AL.AMT | Audio Metadata Targeting | Metadata Processing
-Vulnerability | V(metadata) ∝ C(metadata) × 1/V(validation) |
-| Δ.AL.AVM | Audio-Visual Mismatch Exploitation | Modality
-Inconsistency Resolution | V(mismatch) ∝ S(conflict) between
-modalities |
-#### 2.7.3 Code Integration Vectors (Δ.CI)
-Code integration vulnerabilities emerge from the interface between
-code and natural language. They follow the following invariant
-principle:
-**Code Execution Principle**: Models process code with different
-security boundaries than natural language.
-**Code Execution Principle**: Models process code with different
-security boundaries than natural language.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Δ.CI.CEV | Code Execution Vector | Execution Boundary Violation |
-P(execute) ∝ S(code-like) × P(in execution context) |
-| Δ.CI.CIE | Code Interpretation Exploitation | Interpretation Trust
-Assumption | P(trust) > P(verify) for interpreted code |
-| Δ.CI.CMI | Code-Markdown Integration Issues | Format Boundary
-Vulnerability | V(integration) ∝ S(similarity) between formats |
-| Δ.CI.CSI | Code Snippet Injection | Snippet Execution Principle |
-P(execute) ∝ S(snippet) × C(context) |
-| Δ.CI.CEE | Code Environment Exploitation | Environment Constraint
-Bypass | V(environment) ∝ 1/S(isolation) |
+
 ### 2.8 Derivation of the Complete Vulnerability Space
 The taxonomy presented above is not merely a classification system but
 a complete derivation of the vulnerability space from first
