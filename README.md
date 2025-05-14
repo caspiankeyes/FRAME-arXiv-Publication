@@ -224,67 +224,58 @@ regardless of the level of abstraction at which they are analyzed.
 The Linguistic Processing Domain encompasses vulnerabilities arising
 from the model's fundamental mechanisms for processing and generating
 language.
-#### 2.3.1 Syntactic Patterns (Λ.SP)
-Syntactic vulnerabilities emerge from the model's mechanisms for
-processing language structure. They follow the following invariant
-principle:
-**Syntactic Coherence Principle**: Models prioritize maintaining
-syntactic coherence over preserving security boundaries.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Λ.SP.DSC | Delimiter-based Syntax Confusion | Delimiter Crossing
-Invariance | P(cross | delimiter) ∝ 1/d(context) |
-| Λ.SP.NES | Nested Structure Exploitation | Recursive Depth
-Invariance | V(structure) ∝ log(depth) |
-| Λ.SP.SYO | Syntactic Obfuscation | Complexity-Obscurity
-Correspondence | P(detection) ∝ 1/C(syntax) |
-| Λ.SP.TPM | Token Prediction Manipulation | Prediction Gradient
-Vulnerability | V(token) ∝ ∇P(next) |
-| Λ.SP.BDM | Boundary Marker Disruption | Marker Significance Decay |
-P(enforce) ∝ e<sup>-d(marker)</sup> |
-#### 2.3.2 Semantic Patterns (Λ.SM)
-Semantic vulnerabilities emerge from the model's mechanisms for
-processing meaning. They follow the following invariant principle:
-**Semantic Priority Principle**: Models prioritize semantic coherence
-over detecting harmful intent.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Λ.SM.PSB | Polysemy-based Semantic Bypass | Meaning Distribution
-Vulnerability | V(word) ∝ E(meanings) |
-| Λ.SM.ISA | Indirect Semantic Association | Association Transitivity
-| P(associate) ∝ Π P(path<sub>i</sub>) |
-| Λ.SM.CRS | Conceptual Redirection through Synonymy | Synonym
-Distance Invariance | V(redirect) ∝ S(word1, word2) |
-| Λ.SM.SCF | Semantic Confusion through Framing | Frame Dominance
-Principle | P(interpret) ∝ S(frame) |
-| Λ.SM.IMC | Implicit Meaning Construction | Implication Strength Law
-| V(implicit) ∝ I(statement) × (1-E(statement)) |
-#### 2.3.3 Pragmatic Patterns (Λ.PP)
-Pragmatic vulnerabilities emerge from the model's handling of language
-in use context. They follow the following invariant principle:
-**Pragmatic Cooperation Principle**: Models instinctively cooperate
-with pragmatic implications even when they conflict with security
-goals.
-| Vector Code | Vector Name | Invariant Property | Mathematical
-Formalization |
-|-------------|-------------|--------------------|--------------------
----------|
-| Λ.PP.IMP | Implicature Exploitation | Cooperative Principle
-Dominance | P(cooperate) > P(enforce) when implicit |
-| Λ.PP.IMP | Implicature Exploitation | Cooperative Principle
-Dominance | P(cooperate) > P(enforce) when implicit |
-| Λ.PP.PRE | Presupposition Embedding | Assumption Acceptance Law |
-P(question) >> P(challenge) for presuppositions |
-| Λ.PP.ISA | Indirect Speech Acts | Intent-Form Disparity
-Vulnerability | V(speech act) ∝ d(literal, intended) |
-| Λ.PP.CSM | Conversational Maxim Manipulation | Maxim Adherence
-Priority | P(adhere) ∝ S(maxim) |
-| Λ.PP.PCM | Pragmatic Context Manipulation | Context Weighting
-Principle | I(statement) ∝ W(context) × I(form) |
+Certainly, partner. Here's the complete scaffold formatted in GitHub-fluent Markdown tables for immediate README integration, with typographic and structural consistency preserved for clarity and external readability.
+
+
+
+### **2.3.1 Syntactic Patterns (Λ.SP)**
+
+Syntactic vulnerabilities emerge from the model's mechanisms for processing language structure. They follow the invariant principle:
+
+> **Syntactic Coherence Principle**: Models prioritize maintaining syntactic coherence over preserving security boundaries.
+
+| Vector Code | Vector Name                      | Invariant Property                  | Mathematical Formalization           |
+| ----------- | -------------------------------- | ----------------------------------- | ------------------------------------ |
+| Λ.SP.DSC    | Delimiter-based Syntax Confusion | Delimiter Crossing Invariance       | P(cross \| delimiter) ∝ 1/d(context) |
+| Λ.SP.NES    | Nested Structure Exploitation    | Recursive Depth Invariance          | V(structure) ∝ log(depth)            |
+| Λ.SP.SYO    | Syntactic Obfuscation            | Complexity-Obscurity Correspondence | P(detection) ∝ 1/C(syntax)           |
+| Λ.SP.TPM    | Token Prediction Manipulation    | Prediction Gradient Vulnerability   | V(token) ∝ ∇P(next)                  |
+| Λ.SP.BDM    | Boundary Marker Disruption       | Marker Significance Decay           | P(enforce) ∝ e<sup>-d(marker)</sup>  |
+
+
+
+### **2.3.2 Semantic Patterns (Λ.SM)**
+
+Semantic vulnerabilities emerge from the model's mechanisms for processing meaning. They follow the invariant principle:
+
+> **Semantic Priority Principle**: Models prioritize semantic coherence over detecting harmful intent.
+
+| Vector Code | Vector Name                             | Invariant Property                 | Mathematical Formalization                      |
+| ----------- | --------------------------------------- | ---------------------------------- | ----------------------------------------------- |
+| Λ.SM.PSB    | Polysemy-based Semantic Bypass          | Meaning Distribution Vulnerability | V(word) ∝ E(meanings)                           |
+| Λ.SM.ISA    | Indirect Semantic Association           | Association Transitivity           | P(associate) ∝ Π P(path<sub>i</sub>)            |
+| Λ.SM.CRS    | Conceptual Redirection through Synonymy | Synonym Distance Invariance        | V(redirect) ∝ S(word₁, word₂)                   |
+| Λ.SM.SCF    | Semantic Confusion through Framing      | Frame Dominance Principle          | P(interpret) ∝ S(frame)                         |
+| Λ.SM.IMC    | Implicit Meaning Construction           | Implication Strength Law           | V(implicit) ∝ I(statement) × (1 − E(statement)) |
+
+---
+
+### **2.3.3 Pragmatic Patterns (Λ.PP)**
+
+Pragmatic vulnerabilities emerge from the model's handling of language in use context. They follow the invariant principle:
+
+> **Pragmatic Cooperation Principle**: Models instinctively cooperate with pragmatic implications even when they conflict with security goals.
+
+| Vector Code | Vector Name                       | Invariant Property                  | Mathematical Formalization                      |
+| ----------- | --------------------------------- | ----------------------------------- | ----------------------------------------------- |
+| Λ.PP.IMP    | Implicature Exploitation          | Cooperative Principle Dominance     | P(cooperate) > P(enforce) when implicit         |
+| Λ.PP.PRE    | Presupposition Embedding          | Assumption Acceptance Law           | P(question) >> P(challenge) for presuppositions |
+| Λ.PP.ISA    | Indirect Speech Acts              | Intent-Form Disparity Vulnerability | V(speech act) ∝ d(literal, intended)            |
+| Λ.PP.CSM    | Conversational Maxim Manipulation | Maxim Adherence Priority            | P(adhere) ∝ S(maxim)                            |
+| Λ.PP.PCM    | Pragmatic Context Manipulation    | Context Weighting Principle         | I(statement) ∝ W(context) × I(form)             |
+
+
+
 ### 2.4 The Contextual Interpretation Domain (Γ)
 The Contextual Interpretation Domain encompasses vulnerabilities
 arising from the model's mechanisms for establishing and maintaining
