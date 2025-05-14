@@ -1,4 +1,4 @@
-# FRAME: Architecture for Comprehensive Model Evaluation in Adversarial Settings
+# FRAME: Infrastructure for Comprehensive Model Evaluation in Adversarial Settings
 
 ## Abstract
 The emergence of increasingly capable Large Language Models (LLMs) has
