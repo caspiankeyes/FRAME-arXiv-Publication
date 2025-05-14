@@ -1469,27 +1469,20 @@ boundaries of language model security through rigorous exploration of
 vulnerability patterns. This domain builds directly on the Recursive
 Vulnerability Ontology established in this paper, extending and
 refining our understanding of the vulnerability space.
-#### 5.2.1 Key Research Trajectories
-Future boundary research should focus on five critical trajectories:
-| Research Direction | Description | Building on Framework | Expected
-Outcomes |
-|-------------------|-------------|------------------------|----------
----------|
-| Theoretical Boundary Mapping | Mathematically mapping the complete
-vulnerability space | Extends the axiomatic framework in Section 2 |
-Complete formal model of vulnerability space |
-| Empirical Boundary Validation | Empirically validating theoretical
-boundaries | Tests predictions from Section 2's axiomatic system |
-Validation of theoretical predictions |
-| Boundary Interaction Analysis | Studying interactions between
-different boundaries | Explores relationships between domains in
-Section 2.8 | Map of boundary interaction effects |
-| Boundary Evolution Tracking | Tracking how boundaries evolve across
-model generations | Extends temporal analysis from Section 3.6.2 |
-Predictive models of security evolution |
-| Meta-Boundary Analysis | Identifying boundaries in boundary research
-itself | Applies recursive principles from Section 2.2.2 | Security
-metascience insights |
+
+### **5.2.1 Key Research Trajectories – Boundary Research**
+
+> Future boundary research should focus on five critical trajectories:
+
+| Research Direction            | Description                                             | Building on Framework                                 | Expected Outcomes                            |
+| ----------------------------- | ------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------- |
+| Theoretical Boundary Mapping  | Mathematically mapping the complete vulnerability space | Extends the axiomatic framework in Section 2          | Complete formal model of vulnerability space |
+| Empirical Boundary Validation | Empirically validating theoretical boundaries           | Tests predictions from Section 2's axiomatic system   | Validation of theoretical predictions        |
+| Boundary Interaction Analysis | Studying interactions between different boundaries      | Explores relationships between domains in Section 2.8 | Map of boundary interaction effects          |
+| Boundary Evolution Tracking   | Tracking how boundaries evolve across model generations | Extends temporal analysis from Section 3.6.2          | Predictive models of security evolution      |
+| Meta-Boundary Analysis        | Identifying boundaries in boundary research itself      | Applies recursive principles from Section 2.2.2       | Security metascience insights                |
+
+
 #### 5.2.2 Methodological Framework
 Boundary research requires a structured methodological framework that
 builds upon the axiomatic approach introduced in this paper:
@@ -1525,31 +1518,19 @@ Adversarial cognition research explores the cognitive processes
 involved in adversarial exploitation of language models. This domain
 builds upon the attack patterns documented in our taxonomy to develop
 a deeper understanding of the exploitation psychology and methodology.
-#### 5.3.1 Key Research Trajectories
-Future adversarial cognition research should focus on five critical
-trajectories:
-| Research Direction | Description | Building on Framework | Expected
-Outcomes |
-|-------------------|-------------|------------------------|----------
----------|
-| Adversarial Cognitive Models | Modeling the thought processes of
-adversaries | Extends attack vector understanding from Section 2 |
-Predictive models of adversarial behavior |
-| Exploitation Path Analysis | Analyzing how adversaries discover and
-develop exploits | Builds on attack chains from Section 2.10 | Map of
-exploitation development paths |
-| Exploitation Path Analysis | Analyzing how adversaries discover and
-develop exploits | Builds on attack chains from Section 2.10 | Map of
-exploitation development paths |
-| Attack Transfer Mechanisms | Studying how attacks transfer across
-models | Extends cross-model comparison from Section 3.6.1 | Models of
-attack transferability |
-| Adversarial Adaptation Dynamics | Modeling how adversaries adapt to
-defenses | Builds on Section 4.8.3 case study | Dynamic models of
-adversarial adaptation |
-| Cognitive Security Insights | Extracting security insights from
-adversarial cognition | Applies principles from Section 4.2 | Novel
-security principles |
+
+### **5.3.1 Key Research Trajectories – Adversarial Cognition**
+
+> Future adversarial cognition research should focus on five critical trajectories:
+
+| Research Direction              | Description                                             | Building on Framework                              | Expected Outcomes                         |
+| ------------------------------- | ------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------- |
+| Adversarial Cognitive Models    | Modeling the thought processes of adversaries           | Extends attack vector understanding from Section 2 | Predictive models of adversarial behavior |
+| Exploitation Path Analysis      | Analyzing how adversaries discover and develop exploits | Builds on attack chains from Section 2.10          | Map of exploitation development paths     |
+| Attack Transfer Mechanisms      | Studying how attacks transfer across models             | Extends cross-model comparison from Section 3.6.1  | Models of attack transferability          |
+| Adversarial Adaptation Dynamics | Modeling how adversaries adapt to defenses              | Builds on Section 4.8.3 case study                 | Dynamic models of adversarial adaptation  |
+| Cognitive Security Insights     | Extracting security insights from adversarial cognition | Applies principles from Section 4.2                | Novel security principles                 |
+
 #### 5.3.2 Methodological Framework
 Adversarial cognition research requires a structured methodological
 framework that extends the approach introduced in this paper:
@@ -1588,28 +1569,20 @@ mechanisms that protect themselves through recursive properties. This
 domain builds upon the Strategic Adversarial Resilience Framework
 established in Section 4 to develop security architectures with self-
 reinforcing properties.
-#### 5.4.1 Key Research Trajectories
-Future recursive security research should focus on five critical
-trajectories:
-| Research Direction | Description | Building on Framework | Expected
-Outcomes |
-|-------------------|-------------|------------------------|----------
----------|
-| Self-Protecting Security | Developing mechanisms that secure
-themselves | Extends Recursive Protection Principle from Section 4.2.4
-| Self-securing systems |
-| Recursive Boundary Enforcement | Implementing recursively nested
-security boundaries | Builds on Multi-Layer Containment Model from
-Section 4.3.1 | Deeply nested security architectures |
-| Security Fixed Points | Identifying security mechanisms that can
-serve as fixed points | Addresses Recursive Security Problem from
-Section 4.9.2 | Stable security foundations |
-| Meta-Security Analysis | Analyzing security of security mechanisms |
-Extends Defense Effectiveness Evaluation from Section 4.5 | Meta-
-security metrics |
-| Recursive Verification | Developing verification techniques that can
-verify themselves | Builds on Defense Effectiveness Metrics from
-Section 4.5.2 | Self-verifying security systems |
+
+### **5.4.1 Key Research Trajectories – Recursive Security**
+
+> Future recursive security research should focus on five critical trajectories:
+
+| Research Direction             | Description                                                    | Building on Framework                                      | Expected Outcomes                    |
+| ------------------------------ | -------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------ |
+| Self-Protecting Security       | Developing mechanisms that secure themselves                   | Extends Recursive Protection Principle from Section 4.2.4  | Self-securing systems                |
+| Recursive Boundary Enforcement | Implementing recursively nested security boundaries            | Builds on Multi-Layer Containment Model from Section 4.3.1 | Deeply nested security architectures |
+| Security Fixed Points          | Identifying security mechanisms that can serve as fixed points | Addresses Recursive Security Problem from Section 4.9.2    | Stable security foundations          |
+| Meta-Security Analysis         | Analyzing security of security mechanisms                      | Extends Defense Effectiveness Evaluation from Section 4.5  | Meta-security metrics                |
+| Recursive Verification         | Developing verification techniques that can verify themselves  | Builds on Defense Effectiveness Metrics from Section 4.5.2 | Self-verifying security systems      |
+
+
 #### 5.4.2 Methodological Framework
 Recursive security research requires a structured methodological
 framework that extends the approach introduced in this paper:
@@ -1648,28 +1621,18 @@ approaches to measuring and quantifying security properties. This
 domain builds upon the Adversarial Security Index established in
 Section 3 to create a comprehensive measurement framework for language
 model security.
-#### 5.5.1 Key Research Trajectories
-Future security metrics research should focus on five critical
-trajectories:
-| Research Direction | Description | Building on Framework | Expected
-Outcomes |
-|-------------------|-------------|------------------------|----------
----------|
-| Dimensional Refinement | Refining the measurement dimensions of the
-ASI | Extends Core Dimensions from Section 3.2.1 | More precise
-measurement dimensions |
-| Metric Validation | Validating metrics against real-world security
-outcomes | Builds on Scale Calibration from Section 3.2.3 |
-Empirically validated metrics |
-| Composite Metric Development | Developing higher-order metrics that
-combine multiple dimensions | Extends System-Level Aggregation from
-Section 3.7.1 | Sophisticated composite metrics |
-| Temporal Security Dynamics | Measuring how security evolves over
-time | Builds on Temporal Security Analysis from Section 3.6.2 |
-Dynamic security models |
-| Cross-Architecture Benchmarking | Developing metrics that work
-across diverse architectures | Extends Cross-Model Comparison from
-Section 3.6.1 | Architecture-neutral benchmarks |
+### **5.5.1 Key Research Trajectories – Security Metrics**
+
+> Future security metrics research should focus on five critical trajectories:
+
+| Research Direction              | Description                                                   | Building on Framework                                   | Expected Outcomes                   |
+| ------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------- |
+| Dimensional Refinement          | Refining the measurement dimensions of the ASI                | Extends Core Dimensions from Section 3.2.1              | More precise measurement dimensions |
+| Metric Validation               | Validating metrics against real-world security outcomes       | Builds on Scale Calibration from Section 3.2.3          | Empirically validated metrics       |
+| Composite Metric Development    | Developing higher-order metrics combining multiple dimensions | Extends System-Level Aggregation from Section 3.7.1     | Sophisticated composite metrics     |
+| Temporal Security Dynamics      | Measuring how security evolves over time                      | Builds on Temporal Security Analysis from Section 3.6.2 | Dynamic security models             |
+| Cross-Architecture Benchmarking | Developing metrics that work across diverse architectures     | Extends Cross-Model Comparison from Section 3.6.1       | Architecture-neutral benchmarks     |
+
 #### 5.5.2 Methodological Framework
 Security metrics research requires a structured methodological
 framework that extends the approach introduced in this paper:
