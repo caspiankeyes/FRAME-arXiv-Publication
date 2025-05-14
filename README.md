@@ -1676,28 +1676,19 @@ implementation approaches for security principles. This domain builds
 upon the Strategic Adversarial Resilience Framework established in
 Section 4 to create implementable security architectures for language
 model systems.
-#### 5.6.1 Key Research Trajectories
-Future security architecture research should focus on five critical
-trajectories:
-| Research Direction | Description | Building on Framework | Expected
-Outcomes |
-|-------------------|-------------|------------------------|----------
----------|
-| Pattern Implementation | Implementing architectural security
-patterns | Extends Architectural Security Patterns from Section 4.6 |
-Reference implementations |
-| Boundary Engineering | Engineering effective security boundaries |
-Builds on Multi-Layer Containment Model from Section 4.3.1 | Robust
-boundary implementations |
-| Constraint Optimization | Optimizing constraints for security and
-functionality | Extends Defense Optimization Methodology from Section
-4.5.3 | Optimized constraint systems |
-| Architecture Validation | Validating security architectures against
-attacks | Builds on Control Mapping Methodology from Section 4.5.1 |
-Validated architecture designs |
-| Integration Frameworks | Developing frameworks for security-first
-integration | Extends Implementation Guidelines from Section 4.7 |
-Security integration patterns |
+
+### **5.6.1 Key Research Trajectories – Security Architecture**
+
+> Future security architecture research should focus on five critical trajectories:
+
+| Research Direction      | Description                                           | Building on Framework                                       | Expected Outcomes               |
+| ----------------------- | ----------------------------------------------------- | ----------------------------------------------------------- | ------------------------------- |
+| Pattern Implementation  | Implementing architectural security patterns          | Extends Architectural Security Patterns from Section 4.6    | Reference implementations       |
+| Boundary Engineering    | Engineering effective security boundaries             | Builds on Multi-Layer Containment Model from Section 4.3.1  | Robust boundary implementations |
+| Constraint Optimization | Optimizing constraints for security and functionality | Extends Defense Optimization Methodology from Section 4.5.3 | Optimized constraint systems    |
+| Architecture Validation | Validating security architectures against attacks     | Builds on Control Mapping Methodology from Section 4.5.1    | Validated architecture designs  |
+| Integration Frameworks  | Developing frameworks for security-first integration  | Extends Implementation Guidelines from Section 4.7          | Security integration patterns   |
+
 #### 5.6.2 Methodological Framework
 Security architecture research requires a structured methodological
 framework that extends the approach introduced in this paper:
@@ -1735,26 +1726,22 @@ Beyond the five core research domains, future work should establish
 connections with adjacent disciplines to enrich the security
 framework. These connections will both inform and be informed by the
 foundational work established in this paper.
-#### 5.7.1 Key Interdisciplinary Connections
-Future interdisciplinary research should focus on five critical
-connections:
-| Discipline | Relevance to Framework | Bidirectional Insights |
-Expected Outcomes |
-|------------|------------------------|------------------------|------
--------------|
-| Formal Verification | Verifying security properties | Applying
-verification to ASI metrics (Section 3) | Formally verified security
-claims |
-| Game Theory | Modeling adversarial dynamics | Extending the Dynamic
-Adaptation Principle (Section 4.2.6) | Equilibrium models of security
-|
-| Cognitive Science | Understanding adversarial cognition | Informing
-the adversarial cognitive models | Enhanced attack prediction |
-| Complex Systems | Analyzing security emergence | Extending the
-recursive vulnerability framework (Section 2.2) | Emergent security
-models |
-| Regulatory Science | Informing security standards | Providing
-quantitative foundations for regulation | Evidence-based regulation |
+
+
+
+### **5.7.1 Key Interdisciplinary Connections**
+
+> Future interdisciplinary research should focus on five critical connections:
+
+| Discipline          | Relevance to Framework              | Bidirectional Insights                                        | Expected Outcomes                 |
+| ------------------- | ----------------------------------- | ------------------------------------------------------------- | --------------------------------- |
+| Formal Verification | Verifying security properties       | Applying verification to ASI metrics (Section 3)              | Formally verified security claims |
+| Game Theory         | Modeling adversarial dynamics       | Extending the Dynamic Adaptation Principle (Section 4.2.6)    | Equilibrium models of security    |
+| Cognitive Science   | Understanding adversarial cognition | Informing the adversarial cognitive models                    | Enhanced attack prediction        |
+| Complex Systems     | Analyzing security emergence        | Extending the recursive vulnerability framework (Section 2.2) | Emergent security models          |
+| Regulatory Science  | Informing security standards        | Providing quantitative foundations for regulation             | Evidence-based regulation         |
+
+
 #### 5.7.2 Integration Methodology
 Interdisciplinary connections require a structured methodology for
 integration:
@@ -1793,21 +1780,19 @@ Realizing the research agenda outlined above requires dedicated
 infrastructure and implementation resources. This section outlines the
 necessary components for building a self-sustaining research
 ecosystem.
-#### 5.8.1 Core Infrastructure Components
-| Component | Description | Relation to Framework | Development
-Priority |
-|-----------|-------------|------------------------|------------------
--|
-| Open Benchmark Implementation | Reference implementation of ASI
-benchmarks | Implements Section 3 metrics | High |
-| Attack Vector Database | Structured database of attack vectors |
-Implements Section 2 taxonomy | High |
-| Security Architecture Library | Reference implementations of
-security patterns | Implements Section 4 patterns | Medium |
-| Validation Testbed | Environment for security validation | Supports
-Section 4.5 evaluation | Medium |
-| Interdisciplinary Portal | Platform for cross-discipline
-collaboration | Supports Section 5.7 connections | Medium |
+
+### **5.8.1 Core Infrastructure Components**
+
+> Essential components to support the development, benchmarking, and coordination of advanced security frameworks:
+
+| Component                     | Description                                    | Relation to Framework            | Development Priority |
+| ----------------------------- | ---------------------------------------------- | -------------------------------- | -------------------- |
+| Open Benchmark Implementation | Reference implementation of ASI benchmarks     | Implements Section 3 metrics     | High                 |
+| Attack Vector Database        | Structured database of attack vectors          | Implements Section 2 taxonomy    | High                 |
+| Security Architecture Library | Reference implementations of security patterns | Implements Section 4 patterns    | Medium               |
+| Validation Testbed            | Environment for security validation            | Supports Section 4.5 evaluation  | Medium               |
+| Interdisciplinary Portal      | Platform for cross-discipline collaboration    | Supports Section 5.7 connections | Medium               |
+
 #### 5.8.2 Resource Allocation Guidance
 Effective advancement of this research agenda requires strategic
 resource allocation across the five core domains:
